@@ -1,0 +1,20 @@
+{
+  "name": "netlfy",
+  "version": "1.0.0",
+  "description": "sample repo netlfy",
+  "main": "index.js",
+  "scripts": {
+    "build": "forfiles /P dist /M * /C \"cmd /c if @isdir==TRUE rmdir /S /Q @file\" && mkdir dist\\css && copy index.html dist\\index.html && copy css\\main.css dist\\css\\main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuelsonvs/netlify-git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samuelsonvs/netlify-git/issues"
+  },
+  "homepage": "https://github.com/Samuelsonvs/netlify-git#readme"
+}
