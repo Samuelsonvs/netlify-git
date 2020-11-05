@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Samuelsonvs/netlify-git/issues"
   },
-  "homepage": "https://github.com/Samuelsonvs/netlify-git#readme"
+  "homepage": "https://github.com/Samuelsonvs/netlify-git#readme",
+  "dependencies": {
+    "netlify-cli": "^2.67.4"
+  }
 }
