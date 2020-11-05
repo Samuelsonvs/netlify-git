@@ -4,7 +4,7 @@
   "description": "sample repo netlfy",
   "main": "index.js",
   "scripts": {
-    "build": "forfiles /P dist /M * /C \"cmd /c if @isdir==TRUE rmdir /S /Q @file\" && mkdir dist\\css && copy index.html dist\\index.html && copy css\\main.css dist\\css\\main.css"
+    "build": "RD /S /Q dist && MD dist && mkdir dist\\css && copy index.html dist\\index.html && copy css\\main.css dist\\css\\main.css"
   },
   "repository": {
     "type": "git",
